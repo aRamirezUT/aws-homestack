@@ -1,10 +1,11 @@
 # aws-homestack
-This is project is following my completion of Adrian Cantril's "[AWS Certified Solutions Architect - Associate (SAA-C03)](https://learn.cantrill.io/p/aws-certified-solutions-architect-associate-saa-c03)" Course and my [Certification Completion](https://www.credly.com/badges/d7865611-1094-4126-9cb7-957e04841e72/public_url) of "AWS Solutions Architect - Associate" (SAA-C03)
+This project builds on my completion of Adrian Cantril’s course "[AWS Certified Solutions Architect - Associate (SAA-C03)](https://learn.cantrill.io/p/aws-certified-solutions-architect-associate-saa-c03)" and earning the "AWS Solutions Architect - Associate" [certification](https://www.credly.com/badges/d7865611-1094-4126-9cb7-957e04841e72/public_url).
 
 Some of my implementations will be based off of Adrian's teachings
 
 ## Some helpful commands
-export AWS_PROFILE=<sso_profile_name>
+1. Set AWS profile after `aws sso configure`
+   - `export AWS_PROFILE=<sso_profile_name>`
 
 ## Architecture
 
