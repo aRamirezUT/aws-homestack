@@ -8,6 +8,8 @@ resource "aws_vpc" "aws-homestack-vpc1" {
 
   tags = {
     Name = "aws-homestack-vpc1"
+    Environment = "prod"
+    Terraform   = "true"
   }
 }
 

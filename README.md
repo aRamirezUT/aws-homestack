@@ -3,6 +3,11 @@ This is project is following my completion of Adrian Cantril's "[AWS Certified S
 
 Some of my implementations will be based off of Adrian's teachings
 
+## Some helpful commands
+export AWS_PROFILE=<sso_profile_name>
+
+## Architecture
+
 ### Regions
 - 2 US (us-east-1, us-west-1)
 - 1 Europe (Reserved)
