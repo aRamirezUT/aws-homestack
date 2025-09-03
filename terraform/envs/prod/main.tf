@@ -1,9 +1,9 @@
 module "vpc"{
-  source = "../modules/network"
+  source = "../../modules/network"
 }
 
 module "eks" {
-  source  = "../modules/eks"
+  source  = "../../modules/eks"
   vpc_id                   = module.vpc.vpc_id
   subnet_ids               = module.vpc.public_subnet_ids
   control_plane_subnet_ids = module.vpc.private_subnet_ids

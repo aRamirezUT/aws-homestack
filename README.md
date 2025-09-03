@@ -7,7 +7,7 @@ Some of my implementations will be based off of Adrian's teachings
 1. Set AWS profile after `aws sso configure`
    - `export AWS_PROFILE=<sso_profile_name>`
 
-## Create S3 Bucket for Backend
+## S3 Bucket for Backend
 [One Click Deployment](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://s3.us-east-1.amazonaws.com/aws-homestack-cf-templates/template-1756874233625.yaml&stackName=s3-bucket-terraform-state)
 - TODO: Create a git hosted template
 
